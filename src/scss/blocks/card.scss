@@ -1,0 +1,123 @@
+.tools:hover > .card {
+  background: url("@img/svgicons/maskCard.svg") rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(25px);
+  z-index: 5;
+  margin-top: -20px;
+}
+
+.tools:hover .card__btn {
+  background-color: var(--btn-color);
+  border-radius: rem(8);
+  opacity: 1;
+}
+
+.card__btn {
+  opacity: .55;
+}
+
+.card:hover .like {
+  width: rem(42);
+  height: rem(42);
+  background: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+  border-radius: 8px;
+  z-index: 5;
+}
+
+.like__ok:visited,
+.like__ok:hover {
+  fill: var(--like);
+  fill-opacity: 1;
+}
+
+.card {
+  border-radius: rem(15);
+}
+
+.card__name {
+  position: relative;
+  padding-top: rem(31);
+  padding-bottom: rem(30);
+  padding-left: rem(125);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card__name::before {
+  position: absolute;
+  width: rem(65);
+  height: rem(65);
+  content: '';
+  background-position: center;
+  background-repeat: no-repeat;
+  top: rem(31);
+  left: rem(31);
+}
+
+.figma::before {
+  background-image: url("@img/svgicons/figma.svg");
+}
+
+.sketch::before {
+  background-image: url("@img/svgicons/sketch.svg");
+}
+
+.vscode::before {
+  background-image: url("@img/svgicons/visual-studio-code.svg");
+}
+
+.notion::before {
+  background-image: url("@img/svgicons/notion.svg");
+}
+
+.slack::before {
+  background-image: url("@img/svgicons/slack.svg");
+}
+
+.invision::before {
+  background-image: url("@img/svgicons/invision.svg");
+}
+
+.card__title {
+  padding-top: rem(5);
+  padding-bottom: rem(13);
+  font-size: rem(24);
+  font-weight: 500;
+  opacity: .78;
+}
+
+.card__parameter {
+  font-size: rem(18);
+  color: rgba(255, 165, 55, 0.55);
+}
+
+.card__description {
+  padding: rem(6) 0 rem(6) rem(31);
+  line-height: 1.88;
+  opacity: .55;
+}
+
+.card__options {
+  width: 100%;
+  padding: rem(25) rem(31) rem(31) rem(31);
+  display: grid;
+  grid-template-columns: min-content min-content auto;
+}
+
+.options-card__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options-card__item:not(:last-child) {
+  width: rem(42);
+  height: rem(42);
+  margin-right: rem(11);
+}
+
+.options-card__item:last-child {
+  padding: rem(9) rem(38);
+  justify-self: flex-end;
+}

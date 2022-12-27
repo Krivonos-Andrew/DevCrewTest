@@ -1,0 +1,42 @@
+.brand__container {
+  margin: rem(200) rem(35);
+  background-image: url("@img/svgicons/mask.svg");
+  background-repeat: no-repeat;
+  background-color: rgba(44, 53, 61, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-image-source: linear-gradient(100deg, rgba(255, 255, 255, 0.05) -5%, rgba(255, 255, 255, 0) 97%);
+}
+
+.brand__title {
+  padding: rem(60) 0;
+  text-align: center;
+  font-size: rem(24);
+  font-weight: 500;
+  opacity: .8;
+}
+
+.brand__list {
+  padding: 0 rem(50);
+  margin-left: rem(-20);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: rem(20);
+}
+
+.brand__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: rem(57);
+}
+
+.brand__item > img {
+  width: 70%;
+  background-size: cover;
+}
+
+
+

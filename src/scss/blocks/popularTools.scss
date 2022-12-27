@@ -1,0 +1,43 @@
+.popular-tools__container {
+  padding-top: rem(190);
+}
+
+.popular-tools__info {
+  width: 100%;
+  text-align: center;
+}
+
+.popular-tools__title {
+  padding-bottom: rem(25);
+  font-size: rem(48);
+  font-weight: 500;
+  line-height: 1.3;
+  opacity: .9;
+}
+
+.popular-tools__description {
+  padding-bottom: rem(110);
+  font-size: rem(18);
+  font-weight: 500;
+  line-height: 1.67;
+  opacity: .55;
+}
+
+.popular-tools__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: rem(100) rem(24);
+}
+
+.popular-tools__btn {
+  width: max-content;
+  margin: rem(105) auto rem(200) auto;
+  padding: rem(20) rem(40);
+  border-radius: rem(8);
+  border: solid 1px rgba(255, 255, 255, 0.1);
+  display: block;
+  font-size: rem(20);
+  font-weight: 500;
+  color: var(--btn-color);
+}

@@ -1,0 +1,12 @@
+# CodeSync won't sync the files in the .syncignore. It follows same format as .gitignore.
+phpmailer/
+package-lock.json
+flsStartTemplate/
+node_modules/
+.gitignore
+dist/
+Source/
+version.json
+undefined
+**/*.zip
+**/*.rar

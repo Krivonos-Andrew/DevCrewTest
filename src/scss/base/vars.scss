@@ -1,0 +1,11 @@
+:root {
+  --main-color: #1e252b;
+  --white: #ffffff;
+  --btn-color: #ff6e30;
+  --like: #fd3b41;
+}
+
+.btn {
+  background-color: var(--btn-color);
+  border-radius: rem(8);
+}

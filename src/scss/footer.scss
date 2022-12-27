@@ -1,0 +1,55 @@
+.footer {
+  width: 100%;
+  border-top: .5px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer__container {
+  padding-top: rem(70);
+  padding-bottom: rem(98);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__title {
+  padding-bottom: rem(30);
+  font-size: rem(20);
+  font-weight: 500;
+  opacity: .9;
+}
+
+.footer__link, {
+  padding-bottom: rem(20);
+  font-weight: 500;
+  opacity: .55;
+}
+
+.footer__contacts,
+.footer__categories,
+.footer__info,
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.footer__contacts,
+.footer__categories {
+  padding-left: rem(110);
+}
+
+.footer__info {
+  padding-left: rem(35);
+}
+
+.copyright__text {
+  padding-top: rem(25);
+  padding-bottom: rem(21);
+  font-weight: 500;
+  opacity: .9;
+}
+
+.copyright__info {
+  font-size: rem(14);
+  line-height: 1.79;
+  opacity: .55;
+}

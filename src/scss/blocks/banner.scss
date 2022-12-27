@@ -1,0 +1,148 @@
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.banner__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner__left {
+  padding-top: rem(46);
+  padding-bottom: rem(11);
+}
+
+.banner__right {
+  margin-left: rem(140);
+  margin-right: -105px;
+}
+
+.info-banner__title {
+  font-size: rem(50);
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: .9;
+}
+
+.info-banner__title::after {
+  position: absolute;
+  width: rem(8);
+  height: rem(8);
+  content: '';
+  border-radius: 50%;
+  background-color: var(--btn-color);
+  top: 46%;
+  left: 45%;
+  }
+
+.info-banner__subtitle {
+  padding-top: rem(30);
+  padding-bottom: rem(65);
+  font-size: rem(18);
+  line-height: 1.67;
+  opacity: .55;
+}
+
+.banner__search {
+  margin-right: rem(100);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-image-source: linear-gradient(97deg, rgba(255, 255, 255, 0.1) -2%, rgba(255, 255, 255, 0) 104%);
+  border-image-slice: 1;
+  background-image: linear-gradient(to bottom, #283036, #283036), linear-gradient(97deg, rgba(255, 255, 255, 0.1) -2%, rgba(255, 255, 255, 0) 104%);
+}
+
+.search {
+  position: relative;
+  padding: 0 rem(11);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__placeholder {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: rem(14);
+  opacity: .38;
+
+}
+
+.search__placeholder::before{
+  width: rem(24);
+  height: rem(24);
+  margin-right: 13px;
+  content: '';
+  background-image: url("@img/svgicons/search.svg");
+}
+
+ .search__input:hover + label {
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.search__input {
+  flex: 1;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--white);
+  z-index: 10;
+}
+
+.search__btn {
+  margin: rem(8) 0 ;
+  padding: rem(14) rem(36);
+  font-weight: 600;
+}
+
+
+.banner__social{
+ padding-top: rem(110);
+}
+.social__list{
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item > a{
+  width: rem(58);
+  height: rem(58);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+
+}
+
+.social__item:not(:last-child) {
+  margin-right: rem(8);
+}
+
+
+.facebook {
+
+
+  background-image: url("@img/svgicons/facebook.svg");
+}
+
+.instagram {
+
+  background-image: url("@img/svgicons/instagram.svg");
+}
+.twitter {
+
+  background-image: url("@img/svgicons/twitter.svg");
+}
+
+
+
+
+
+
+
+

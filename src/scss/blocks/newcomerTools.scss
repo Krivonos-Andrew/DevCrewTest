@@ -1,0 +1,68 @@
+.newcomer__container {
+  padding-top: rem(10);
+  margin-bottom: rem(190);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.newcomer__info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.newcomer__description {
+  padding-bottom: rem(65);
+  font-size: rem(18);
+  font-weight: 500;
+  line-height: 1.67;
+  opacity: .55;
+}
+
+.newcomer__btn {
+  width: max-content;
+  padding: rem(20) rem(40);
+  display: flex;
+  font-size: rem(18);
+  font-weight: 500;
+}
+
+.newcomer__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-column-gap: rem(12);
+  grid-row-gap: rem(40);
+}
+
+.newcomer__title {
+  padding-bottom: rem(25);
+  font-size: rem(48);
+  font-weight: 500;
+  line-height: 1.3;
+  opacity: .9;
+}
+
+.small {
+  font-size: rem(14);
+  line-height: 2.14;
+  opacity: .78;
+}
+
+.zeplin::before {
+  background-image: url("@img/svgicons/zeplin.svg");
+}
+
+.php::before {
+  background-image: url("@img/svgicons/jb_phpstorm.svg");
+}
+
+.toolbox::before {
+  background-image: url("@img/svgicons/toolbox_app.svg");
+}
+
+.procreate::before {
+  background-image: url("@img/svgicons/procreate.svg");
+}
+
+
